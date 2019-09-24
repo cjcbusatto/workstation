@@ -39,8 +39,13 @@ My actual workstation configuration and softwares that I use daily for developme
   sudo apt install zsh -y
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ```
-  
-
+- [zshrc](https://gist.github.com/cjcbusatto/f8e8b1b8a43abd2901517ad4805701c4)
+- Fuzzy Search
+```bash
+$ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+$ cd ~/.fzf/
+$ ./install
+```
 ## Development tools
 
 - [git]()
