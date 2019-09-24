@@ -5,21 +5,30 @@ My actual workstation configuration and softwares that I use daily for developme
 ## OS
 
 - Current OS: Ubuntu 18.04
-- Theme: Flat Remix
+- Theme: 
+  - [Flat Remix Green Dark]()
+  - Gnome Tweaks
+  - Unite
+  - User Themes
+  - [Gnome Sushi]()
   ```bash
-  # Install theme
-  sudo add-apt-repository ppa:daniruiz/flat-remix
-  sudo apt-get update
-  sudo apt-get install flat-remix-gnome
-  # Login screen
-  sudo apt install libglib2.0-dev-bin imagemagick
+  sudo apt install gnome-sushi
   ```
+- Icons: [Flat Remix Green Dark]()
+- Fonts: 
+  - WindowTitle and Interface: Ubuntu Regular
+  - Document, Monospace: Hack regular
+
 
 ## Fonts
 - Powerline fonts and FiraCode
   ```bash
   #Install FiraCode
   sudo apt install fonts-firacode -y
+  
+  # Install Hack
+  sudo apt install install fonts-hack-ttf
+  
   # Install powerline fonts
   sudo apt-get install fonts-powerline -y
   ```
@@ -30,7 +39,7 @@ My actual workstation configuration and softwares that I use daily for developme
   sudo apt install zsh -y
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ```
-
+  
 
 ## Development tools
 
@@ -61,3 +70,10 @@ My actual workstation configuration and softwares that I use daily for developme
 
 ## Applications
 - [Google Chrome]()
+- [Mailspring](https://getmailspring.com/)
+  ```bash
+  sudo snap install mailspring
+  ```
+- [Franz](https://meetfranz.com/)
+- [Password Safe](https://pwsafe.org/)
+ 
